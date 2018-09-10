@@ -1,0 +1,68 @@
+# This file is auto-generated during the composer install
+parameters:
+    database_host:
+    database_port:
+    database_name:
+    database_user:
+    database_password:
+    mailer_transport: smtp
+    mailer_host: #smtp.sendgrid.net
+    mailer_user:
+    mailer_password:
+    secret: 'tobechanged'
+
+    # Global parameters
+    app_name: 'Strime.io Encoding API - Dev'
+    app_version: '1.0'
+    app_security_token:
+    hostname: 'encoding-dev.company.com'
+    storage_multiplier: 1000000000
+    video_file_lifetime: 600
+    video_file_unconverted_lifetime: 86400
+
+    # API Parameters
+    strime_api_url: https://api-dev.company.com/
+    strime_api_token:
+
+    # App Parameters
+    strime_app_url: https://www-dev.company.com/
+    strime_app_nginx_username: htpwdcred
+    strime_app_nginx_pwd: htpwdpwd
+    strime_app_token:
+
+    # AWS (Amazon Web Service)
+    aws_bucket: 'your-bucket'
+    aws_bucket_comments: 'your-bucket'
+    aws_bucket_audios: 'your-bucket'
+    aws_key: ''
+    aws_secret: ''
+    aws_region: 'eu-west-1'
+
+    # FFMPEG
+    ffmpeg_ffmpeg_path: '/usr/bin/ffmpeg'
+    ffmpeg_ffprobe_path: '/usr/bin/ffprobe'
+    ffmpeg_timeout: 21600
+    ffmpeg_threads: 1
+    ffmpeg_video_width: 1280
+    ffmpeg_video_height: 720
+
+    # FFMPEG Waveform default colors
+    ffmpeg_waveform_default_r: 127
+    ffmpeg_waveform_default_g: 63
+    ffmpeg_waveform_default_b: 0
+    ffmpeg_waveform_strime_r: 12
+    ffmpeg_waveform_strime_g: 172
+    ffmpeg_waveform_strime_b: 154
+    ffmpeg_waveform_strime_alpha: 1
+    ffmpeg_waveform_strime_light_r: 15
+    ffmpeg_waveform_strime_light_g: 216
+    ffmpeg_waveform_strime_light_b: 193
+    ffmpeg_waveform_strime_grey_r: 146
+    ffmpeg_waveform_strime_grey_g: 146
+    ffmpeg_waveform_strime_grey_b: 146
+    ffmpeg_waveform_strime_light_grey_r: 236
+    ffmpeg_waveform_strime_light_grey_g: 236
+    ffmpeg_waveform_strime_light_grey_b: 236
+
+    # Slack
+    slack_strime_encoding_channel: #https://hooks.slack.com/services/a/b/c123

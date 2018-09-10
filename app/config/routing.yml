@@ -1,0 +1,16 @@
+strime_encoding_api_encoding:
+    resource: "@StrimeEncodingAPIEncodingBundle/Controller/"
+    type:     annotation
+    prefix:   /
+
+strime_encoding_api_global:
+    resource: "@StrimeEncodingAPIGlobalBundle/Controller/"
+    type:     annotation
+    prefix:   /
+
+remove_trailing_slash:
+    path: /{url}
+    defaults: { _controller: StrimeEncodingAPIGlobalBundle:Redirecting:removeTrailingSlash }
+    requirements:
+        url: .*/$
+    methods: [GET]

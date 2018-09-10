@@ -1,0 +1,4 @@
+services:
+#    strime_encoding_api_global.example:
+#        class: StrimeEncodingAPI\GlobalBundle\Example
+#        arguments: ["@service_id", "plain_value", %parameter%]
